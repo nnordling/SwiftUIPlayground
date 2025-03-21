@@ -5,6 +5,7 @@ struct ContentView: View {
         NavigationStack {
             List {
                 NavigationLink("Scrollable Tab Bar", destination: ScrollableTabBarView())
+                NavigationLink("Mail App Opener", destination: MailAppOpenerView())
             }
         }
     }
